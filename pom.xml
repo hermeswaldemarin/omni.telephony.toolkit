@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>br.com.omniplusoft</groupId>
-	<artifactId>IntegrationPlatform</artifactId>
+	<groupId>br.com.plusoftomni</groupId>
+	<artifactId>OmniTelephonyToolkit</artifactId>
 	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
     <parent>
-        <groupId>br.com.omniplusoft</groupId>
+        <groupId>br.com.plusoftomni</groupId>
         <artifactId>integration-platform-dependencies</artifactId>
         <version>0.0.4-SNAPSHOT</version>
         <relativePath/>
@@ -17,9 +17,23 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>br.com.plusoftomni</groupId>
+            <artifactId>IntegrationPlatform</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.plusoftomni</groupId>
+            <artifactId>IntegrationPlatform</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
-	<name>IntegrationPlatform</name>
-	<description>Integration Platform for Omni-Plusoft</description>
+	<name>OmniTelephonyToolkit</name>
+	<description>Omni Telephony Toolkit for Omni Integration Platform</description>
 
 </project>
