@@ -10,7 +10,7 @@ import org.springframework.web.socket.server.standard.TomcatRequestUpgradeStrate
 import org.springframework.web.socket.server.support.DefaultHandshakeHandler;
 
 @Configuration
-@ComponentScan("br.com.omniplusoft.gateway.application.telephonyplatform, br.com.omniplusoft.gateway.domain")
+@ComponentScan("br.com.plusoftomni.integration.application, br.com.plusoftomni.integration.domain")
 public class TestWebSocketConfig extends WebSocketMessageBrokerConfigurationSupport {
 
     @Override

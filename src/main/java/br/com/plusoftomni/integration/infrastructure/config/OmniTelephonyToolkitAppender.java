@@ -19,7 +19,7 @@ public class OmniTelephonyToolkitAppender<E> extends ConsoleAppender<E> {
     public synchronized void doAppend(E eventObject) {
         context = SpringEventListeners.applicationContext;
 
-        if( ((LoggingEvent)eventObject).getLoggerName().contains("br.com.omniplusoft") ) {
+        if( ((LoggingEvent)eventObject).getLoggerName().contains("br.com.plusoftomni") ) {
             if(context != null){
                 //context.getBeanDefinitionNames()
                 logDispatcher = context.getBean(LogDispatcher.class);

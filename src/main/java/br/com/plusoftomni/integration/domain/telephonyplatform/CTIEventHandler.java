@@ -36,7 +36,7 @@ public class CTIEventHandler {
     }
 
     private void loadDispatchers(){
-        Reflections reflections = new Reflections("br.com.omniplusoft");
+        Reflections reflections = new Reflections("br.com.plusoftomni");
         Set<Class<?>> annotated = reflections.getTypesAnnotatedWith(EventHandler.class);
 
         for (Class clazz: annotated){

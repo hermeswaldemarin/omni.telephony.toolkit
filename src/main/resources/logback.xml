@@ -15,7 +15,7 @@
 
 
     <logger name="org.springframework" level="DEBUG"/>
-    <logger name="br.com.omniplusoft" level="TRACE"/>
+    <logger name="br.com.plusoftomni" level="TRACE"/>
 
 
 </configuration>

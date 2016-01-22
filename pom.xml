@@ -15,6 +15,10 @@
         <relativePath/>
     </parent>
 
+    <properties>
+        <start-class>br.com.plusoftomni.OmniIntegrationPlatformApplication</start-class>
+    </properties>
+
     <dependencies>
 
         <dependency>
