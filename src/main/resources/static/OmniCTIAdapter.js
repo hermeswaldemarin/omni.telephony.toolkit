@@ -106,6 +106,7 @@
 
         this.on = eventHandler.on;
         this.off = eventHandler.off;
+        this.disconnect = disconnect;
 
         return this;
 
