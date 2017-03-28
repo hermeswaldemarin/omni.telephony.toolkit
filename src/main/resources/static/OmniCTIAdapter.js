@@ -98,7 +98,7 @@
             stompClient.send(SEND_EVENTS_PATH + event, {destination: SEND_EVENTS_PATH + event}, JSON.stringify(object));
         }
 
-        var mainActions = ["answer", "ready", "notReady", "cancel", "conference", "consult", "dropCall", "hold", "login", "logout", "makeCall", "transfer", "unhold", "log"];
+        var mainActions = ["answer", "ready", "notReady", "cancel", "cancelConsult", "conference", "consult", "dropCall", "hold", "login", "logout", "makeCall", "transfer", "unhold", "log"];
 
         for(var i = 0, l = mainActions.length; i < l; i++) registerMainAction(mainActions[i]);
 
@@ -106,6 +106,7 @@
 
         this.on = eventHandler.on;
         this.off = eventHandler.off;
+        this.disconnect = disconnect;
 
         return this;
 
